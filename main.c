@@ -4,9 +4,20 @@ void main()
 {
     int a=0;
     int b=0;
+    char ch;
+    int f=0;
     printf("Enter the value of a: ");
     scanf("%d",&a);
     printf("Enter the value of b: ");
     scanf("%d",&b);
+    printf("Press 1 -addition 2-Subraction q-exit :");
+    scanf("%c",&ch);
+    switch (ch)
+    {
+    case '1':sum(a,b);break;
+    case '2':diff(a,b);break;
+    case 'q':f=1;break;    
+    default:printf("Invalid");break;
+    }
 
 }
