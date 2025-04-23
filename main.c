@@ -10,12 +10,13 @@ void main()
     scanf("%d",&a);
     printf("Enter the value of b: ");
     scanf("%d",&b);
-    printf("Press 1 -addition 2-Subraction q-exit :");
+    printf("Press 1 -addition 2-Subraction 3-Multiplication q-exit :");
     scanf("%c",&ch);
     switch (ch)
     {
     case '1':sum(a,b);break;
     case '2':diff(a,b);break;
+    case '3':Mul(a,b);break;
     case 'q':f=1;break;    
     default:printf("Invalid");break;
     }
