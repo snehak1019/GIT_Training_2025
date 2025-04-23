@@ -2,16 +2,16 @@
 #define OPERATION_H
 
 // Arithmetic Function Declarations
-int sum(int a, int b);         // Addition
-int diff(int a, int b);        // Subtraction
-int mul(int a, int b);         // Multiplication
-int div(int a, int b);         // Division
-int mod(int a, int b);         // Modulo
+int sum(int a, int b);
+int diff(int a, int b);
+int mul(int a, int b);
+int div(int a, int b);
+int mod(int a, int b);
 
 // Logical Function Declarations
-int logical_and(int a, int b); // Logical AND
-int logical_or(int a, int b);  // Logical OR
-int logical_not(int a);        // Logical NOT
-int logical_xor(int a, int b); // Logical XOR
+int logical_and(int a, int b);
+int logical_or(int a, int b);
+int logical_not(int a);
+int logical_xor(int a, int b);
 
 #endif // OPERATION_H
