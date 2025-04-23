@@ -16,7 +16,7 @@ void main()
     {
     case '1':sum(a,b);break;
     case '2':diff(a,b);break;
-    case '3':Mul(a,b);break;
+    case '3':mul(a,b);break;
     case 'q':f=1;break;    
     default:printf("Invalid");break;
     }
