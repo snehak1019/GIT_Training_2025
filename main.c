@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &b);
 
     while (f == 0) {
-        printf("\nPress 1-Arithmetic 2-Logical (q to quit): ");
+        printf("\nPress 1-Arithmetic 2-Logical 3-Swap between two number (q to quit): ");
         scanf(" %c", &m);
 
         if (m == '1') {
@@ -46,7 +46,15 @@ int main() {
             }
         } else if (m == 'q') {
             f = 1;
-        } else {
+        }
+        else if(m=='3')
+        {
+         swap_number(&a,&b);
+         printf("Swap between a is %d and b is %d",a,b);
+            
+        }
+        
+        else {
             printf("Invalid option.\n");
         }
     }
