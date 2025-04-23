@@ -12,3 +12,7 @@ int logical_not(int a) {
     return !a; // Returns 1 if a is 0, otherwise 0
 }
 
+int logical_xor(int a ,int b)
+{
+    return a^b;
+}
