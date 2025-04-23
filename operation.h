@@ -13,5 +13,5 @@ int logical_and(int a, int b);
 int logical_or(int a, int b);
 int logical_not(int a);
 int logical_xor(int a, int b);
-
+void swap_number(int *a,int *b);
 #endif // OPERATION_H
