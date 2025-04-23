@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include "operation.h"
 int logical_and(int a, int b) {
     return a && b; 
 }
