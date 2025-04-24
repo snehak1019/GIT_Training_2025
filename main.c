@@ -1,8 +1,6 @@
 #include<stdio.h>
-
 int main()
 {
-    printf("Hello world ");
-    return 0;
-
+    printf("hello");
+    printf("change is made by deepita");
 }
