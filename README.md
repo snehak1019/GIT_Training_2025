@@ -1,1 +1,0 @@
-# GIT_Training_2025
